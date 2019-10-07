@@ -7,18 +7,15 @@ ul.nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #3CCA96;
-}
-
-li.left {
-  float: left;
+  background-color: #7AE4BD;
+  width: 100%;
 }
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
-  padding: 14px 85px;
+  padding: 9px 85px;
   text-decoration: none;
 }
 
@@ -50,7 +47,7 @@ img {
 
 .left {
   text-align: left;
-  font-color: bleck;
+  font-color: black;
 }
 
 h2 {
