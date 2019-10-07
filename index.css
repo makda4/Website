@@ -78,9 +78,15 @@ h4 {
   font-size: 16pt;
 }
 
-section, ul {
+section {
   font-size: 12pt;
   font-family: 'PT Serif', serif;
+  display: block;
+  width: 40%;
+  padding: 15px;
+  border: 10px solid #F9F9F9;
+  background-color: #A3D9FF;
+  display: inline-block;
 }
 
 .flex-container {
