@@ -12,7 +12,6 @@ ul.nav {
 }
 
 li a {
-  display: block;
   color: black;
   text-align: center;
   padding: 9px 85px;
@@ -21,6 +20,15 @@ li a {
 
 li a:hover {
   background-color: #CDCDCD;
+  color: white
+}
+
+.navflexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #7AE4BD;
+  width: 100%;
 }
 
 .button {
@@ -84,6 +92,13 @@ section {
   border: 10px solid #F9F9F9;
   background-color: #A3D9FF;
   display: inline-block;
+}
+
+.sec1 {
+  font-size: 12pt;
+  font-family: 'PT Serif', serif;
+  width: 100%;
+  background-color: #F9F9F9;
 }
 
 .flex-container {
