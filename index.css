@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|PT+Serif&display=swap');
 
-:root {
+body:root {
   --paragraphText: 'PT Serif', Sans-Serif;
   --headingText: Oswald, sans-serif;
   --navigationText: Oswald, sans-serif;
@@ -87,6 +87,11 @@ h2 {
 
 p {
   font-size: 14pt;
+  font-family: 'PT Serif', serif;
+}
+
+.smallp {
+  font-size: 11pt;
   font-family: 'PT Serif', serif;
 }
 
