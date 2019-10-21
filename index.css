@@ -75,11 +75,6 @@ img {
   margin-left: 80px;
 }
 
-.left {
-  text-align: left;
-  font-color: black;
-}
-
 h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 20pt;
@@ -122,9 +117,14 @@ section {
   align-items: center;
 }
 
+section:hover {
+  box-shadow: 10px 10px 10px 10px #072DD5;
+}
+
 .sec1 {
   font-size: 12pt;
   font-family: 'PT Serif', serif;
   width: 100%;
   background-color: #F9F9F9;
+  box-shadow: none;
 }
