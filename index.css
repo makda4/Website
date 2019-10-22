@@ -3,7 +3,7 @@
 body:root {
   --paragraphText: 'PT Serif', Sans-Serif;
   --headingText: Oswald, sans-serif;
-  --navigationText: Oswald, sans-serif;
+  --navigationText: 'Oswald', sans-serif;
 }
 
 body {
@@ -75,7 +75,7 @@ img {
   margin-left: 80px;
 }
 
-h2 {
+h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 20pt;
 }
