@@ -75,8 +75,9 @@ img {
   margin-left: 80px;
 }
 
-.drugimg {
-  height: 25%;
+div {
+  width: 45%;
+  height: auto;
 }
 
 h1 {
