@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|PT+Serif&display=swap');
 
-body:root {
-  --paragraphText: 'PT Serif', Sans-Serif;
-  --headingText: Oswald, sans-serif;
-  --navigationText: 'Oswald', sans-serif;
+:root {
+  --paragraph-Text: 'PT Serif', Sans-Serif;
+  --heading-Text: Oswald, sans-serif;
+  --navigation-Text: Oswald, sans-serif;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--headingText)
+  font-family: var(--heading-Text);
 }
 
 ul.nav {
@@ -41,7 +41,7 @@ li a:hover {
   font-size: 1.5em;
   text-transform: capitalize;
   color: black;
-  font-family: var(--navigationText);
+  font-family: var(--navigation-Text);
 }
 
 .button {
@@ -73,6 +73,10 @@ img {
   margin-bottom: 10px;
   margin-right: 10px;
   margin-left: 80px;
+}
+
+.drugimg {
+  height: 25%;
 }
 
 h1 {
