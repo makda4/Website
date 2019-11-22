@@ -1,19 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|PT+Serif&display=swap');
-
-:root {
-  --paragraph-Text: 'PT Serif', Sans-Serif;
-  --heading-Text: Oswald, sans-serif;
-  --navigation-Text: Oswald, sans-serif;
-}
-
 body {
   background-color: #F9F9F9
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-Text);
+  font-family: Oswald, sans-serif;
 }
 
+/* nav start */
 ul.nav {
   list-style-type: none;
   overflow: hidden;
@@ -41,18 +34,7 @@ li a:hover {
   font-size: 1.5em;
   text-transform: capitalize;
   color: black;
-  font-family: var(--navigation-Text);
-}
-
-.button {
-  background-color: #072DD5;
-  border: none;
-  color: white;
-  padding: 3px 18px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
+  font-family: Oswald, sans-serif;
 }
 
 .sr-only {
@@ -64,6 +46,8 @@ li a:hover {
   overflow: hidden;
 }
 
+/* nav end */
+/* image start */
 img {
   width: 55%;
   border-style: solid;
@@ -75,11 +59,13 @@ img {
   margin-left: 80px;
 }
 
+/* image end */
 div {
   width: 45%;
   height: auto;
 }
 
+/* title/heading */
 h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 20pt;
@@ -90,6 +76,14 @@ p {
   font-family: 'PT Serif', serif;
 }
 
+header h1 {
+  font-size: 2.5em;
+  display: grid;
+  justify-content: space-around;
+}
+
+/* title/heading end*/
+/* footer start */
 .smallp {
   font-size: 11pt;
   font-family: 'PT Serif', serif;
@@ -105,6 +99,19 @@ footer {
   margin-left: 0px;
 }
 
+.button {
+  background-color: #072DD5;
+  border: none;
+  color: white;
+  padding: 3px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+/* footer end */
+/* block section css start */
 h4 {
   font-family: 'Oswald', sans-serif;
   font-size: 16pt;
@@ -114,21 +121,25 @@ section {
   font-size: 12pt;
   font-family: 'PT Serif', serif;
   display: block;
-  width: 40%;
+  width: 46%;
   padding: 15px;
   border: 10px solid #F9F9F9;
   background-color: #A3D9FF;
   display: inline-block;
-  align-items: center;
+  align-content: center;
 }
 
 section:hover {
   box-shadow: 10px 10px 10px 10px #072DD5;
 }
 
+/* block section css end */
+/* 1st page description */
 .sec1 {
   font-size: 12pt;
   font-family: 'PT Serif', serif;
   width: 100%;
   background-color: #F9F9F9;
 }
+
+/* 1st page description */
