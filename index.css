@@ -144,10 +144,4 @@ section:hover {
 
 /* 1st page description */
 /* media query */
-@media screen and (max-width: 600px) {
-  nav {
-    float: none;
-    width: 100%;
-  }
-
-  /* media query */
+/* media query */
