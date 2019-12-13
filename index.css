@@ -46,6 +46,16 @@ li a:hover {
   overflow: hidden;
 }
 
+@media only screen and (max-width: 600px) {
+  ul.nav {
+    list-style-type: none;
+ margin: 0;
+ padding: 0;
+ width: 200px;
+ background-color:
+ #7AE4BD;
+  }
+}
 /* nav end */
 /* image start */
 img {
@@ -127,6 +137,12 @@ section {
   background-color: #A3D9FF;
   display: inline-block;
   align-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  section {
+    width: 100%;
+  }
 }
 
 section:hover {
